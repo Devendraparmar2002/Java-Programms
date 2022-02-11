@@ -1,0 +1,21 @@
+import java.util.*;
+
+class Devendra
+{
+	static void Main(String args[])
+	{
+		int num;
+		System.out.println("Enter an integer Number:");
+		
+		//The input provided by user is stored in num
+		Scanner input = new Scanner (System.in);
+		num = input.nextInt();
+		
+		/* If number is divisble by 2 then it's an even number
+		/* else odd number */
+		if (num % 2 == 0)
+			System.out.println("Entered Number is even");
+		else
+			System.out.println("Entered Number is odd");
+	}
+}	
